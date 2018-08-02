@@ -5,7 +5,7 @@
     <resultMap id="BaseResultMap" type="com.xulu.pandora.entity.User1">
         <id column="id" property="id" jdbcType="Integer" />
         <result column="name" property="name" jdbcType="VARCHAR" />
-        <result column="age" property="age" jdbcType="Integer" />
+        <result column="age" property="age" jdbcType="INTEGER" />
     </resultMap>
 
     <insert id="insert" parameterType="com.xulu.pandora.entity.User1" useGeneratedKeys="true" keyProperty="id">

@@ -31,7 +31,7 @@ public class MybatisDatasource2Config {
         SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
         factoryBean.setDataSource(ds);
         ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
-        factoryBean.setMapperLocations(resolver.getResources("classpath:mapper/*.xml"));
+        factoryBean.setMapperLocations(resolver.getResources("classpath:mybatis/*.xml"));
         return factoryBean.getObject();
     }
 

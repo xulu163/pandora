@@ -32,7 +32,7 @@ public class MybatisDatasourceConfig {
         factoryBean.setDataSource(ds);
         //指定mapper xml目录
         ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
-        factoryBean.setMapperLocations(resolver.getResources("classpath:mapper/*.xml"));
+        factoryBean.setMapperLocations(resolver.getResources("classpath:mybatis/*.xml"));
         return factoryBean.getObject();
 
     }
