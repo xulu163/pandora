@@ -23,7 +23,9 @@ import java.util.Properties;
 
 /**
  * Atomikos多数据源配置
- * Created by xulu on 2018/8/2.
+ * @author xulu
+ * @date 2018/8/2
+ * @link https://github.com/xulu163
  */
 @Configuration
 public class DruidConfig {

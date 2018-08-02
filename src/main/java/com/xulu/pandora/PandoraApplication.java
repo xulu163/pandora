@@ -8,7 +8,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.context.request.RequestContextListener;
 
 /**
- * Created by xulu on 2018/8/2.
+ * @author xulu
+ * @date 2018/8/2
+ * @link https://github.com/xulu163
  */
 @SpringBootApplication
 @EnableTransactionManagement

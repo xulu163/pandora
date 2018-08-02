@@ -14,8 +14,9 @@ import org.springframework.core.io.support.ResourcePatternResolver;
 import javax.sql.DataSource;
 
 /**
- * 配置数据源对应的sqlSessionFactory，以及MapperScan扫描的包
- * Created by xulu on 2018/8/2.
+ * @author xulu
+ * @date 2018/8/2
+ * @link https://github.com/xulu163
  */
 @Configuration
 // 精确到 mapper 目录，以便跟其他数据源隔离

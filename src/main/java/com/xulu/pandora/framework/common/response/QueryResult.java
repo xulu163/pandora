@@ -3,7 +3,9 @@ package com.xulu.pandora.framework.common.response;
 import java.util.List;
 
 /**
- * Created by gf on 2018/4/2.
+ * @author xulu
+ * @date 2018/8/2
+ * @link https://github.com/xulu163
  */
 public class QueryResult<T> {
     private String total;

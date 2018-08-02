@@ -1,12 +1,17 @@
 package com.xulu.pandora.framework.common.response;
 
-public class ResponseData {
+/**
+ * @author xulu
+ * @date 2018/8/2
+ * @link https://github.com/xulu163
+ */
+public class ResponseData<T> {
 
     private String code;
 
     private String msg;
 
-    private Object data;
+    private T data;
 
     public String getCode() {
         return code;
@@ -24,11 +29,11 @@ public class ResponseData {
         this.msg = msg;
     }
 
-    public Object getData() {
+    public T getData() {
         return data;
     }
 
-    public void setData(Object data) {
+    public void setData(T data) {
         this.data = data;
     }
 }

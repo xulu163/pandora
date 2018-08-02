@@ -5,7 +5,9 @@ import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by msi on 2018/8/2.
+ * @author xulu
+ * @date 2018/8/2
+ * @link https://github.com/xulu163
  */
 @Mapper
 @Component
