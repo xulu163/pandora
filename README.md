@@ -1,4 +1,4 @@
-# pandora【springboot常用架构配置集（亲测有效）】
+# pandora【springboot常用架构配置及工具类集（亲测有效）】
 
 1.过滤器
 
@@ -21,3 +21,7 @@
 10.分布式事务TCC
 
 11.websocket
+
+有兴趣贡献代码？email：java_xul@163.com
+拍砖？email如上，求砸... 
+觉得对你有用？star一个吧，谢谢！
