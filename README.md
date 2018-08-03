@@ -1,5 +1,4 @@
-# pandora
-springboot架构配置集
+# pandora【springboot常用架构配置集（亲测有效）】
 
 1.过滤器
 
