@@ -5,6 +5,7 @@ import com.xulu.pandora.entity.User2;
 import com.xulu.pandora.mapper.test1.User1Mapper;
 import com.xulu.pandora.mapper.test2.User2Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -28,5 +29,11 @@ public class TestService {
         user1Mapper.insert(user1);
         int n = 10/user2.getAge();
         user2Mapper.insert(user2);
+    }
+
+    @Async
+    public void asyncTest() throws Exception{
+        Thread.sleep(5000);
+        System.out.println("异步线程打印：hello，world！");
     }
 }
