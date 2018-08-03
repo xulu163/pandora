@@ -20,16 +20,18 @@ public class TestController {
     @Autowired
     TestService testService;
 
-    @RequestMapping(value = "/test", method = RequestMethod.GET)
-    public void test( @RequestParam(value = "name", required = true, defaultValue = "1") String name,
-                      @RequestParam(value = "age", required = true, defaultValue = "10") Integer age){
+    @RequestMapping(value = "/testAtomikos", method = RequestMethod.GET)
+    public void test( @RequestParam(value = "name1", required = true, defaultValue = "1") String name1,
+                      @RequestParam(value = "age1", required = true, defaultValue = "10") Integer age1,
+                      @RequestParam(value = "name2", required = true, defaultValue = "1") String name2,
+                      @RequestParam(value = "age2", required = true, defaultValue = "10") Integer age2){
         User1 user1 = new User1();
-        user1.setName(name);
-        user1.setAge(age);
+        user1.setName(name1);
+        user1.setAge(age1);
 
         User2 user2 = new User2();
-        user2.setName(name);
-        user2.setAge(age);
+        user2.setName(name2);
+        user2.setAge(age2);
         testService.test(user1,user2);
     }
 }

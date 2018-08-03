@@ -26,6 +26,7 @@ public class TestService {
     @Transactional(transactionManager = "xatx", propagation = Propagation.REQUIRED, rollbackFor = {java.lang.RuntimeException.class})
     public void test(User1 user1, User2 user2){
         user1Mapper.insert(user1);
+        int n = 10/user2.getAge();
         user2Mapper.insert(user2);
     }
 }
