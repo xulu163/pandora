@@ -1,6 +1,17 @@
 server:
     port: 8081
 spring:
+    redis:
+        database: 2
+        host: 192.168.1.134
+        password: ''
+        pool:
+            max-active: 8
+            max-idle: 8
+            max-wait: -1
+            min-idle: 0
+        port: 6379
+        timeout: 0
     thymeleaf:
         cache: false
         enabled: false

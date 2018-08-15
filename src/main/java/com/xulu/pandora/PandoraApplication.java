@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableAsync;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.context.request.RequestContextListener;
 
@@ -17,6 +18,7 @@ import org.springframework.web.context.request.RequestContextListener;
 @EnableTransactionManagement
 @EnableAsync  //开启线程池
 @ComponentScan(basePackages = "com.xulu")
+@EnableScheduling
 public class PandoraApplication {
 
     public static void main(String[] args) {
