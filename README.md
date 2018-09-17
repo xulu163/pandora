@@ -26,11 +26,13 @@
 12.solr
 
 13.redis
+    ①redis锁
+    ②redis crud
 
 14.memcache
 
 15.分布式定时任务
 
-**有兴趣贡献代码？email：java_xul@163.com QQ:5722267298**
-**拍砖？email&QQ如上，求砸...** 
+16.mybatis tk pageHelper
+
 **觉得对你有用？star一个吧，谢谢！**

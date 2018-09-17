@@ -8,7 +8,4 @@
         <result column="age" property="age" jdbcType="INTEGER" />
     </resultMap>
 
-    <insert id="insert" parameterType="com.xulu.pandora.entity.User1" useGeneratedKeys="true" keyProperty="id">
-        insert into user(name,age) values(#{name},#{age})
-    </insert>
 </mapper>
